@@ -13,6 +13,7 @@ from sys import argv
 # test3
 script, filename = argv
 fp = open(filename)
-print "Reading file %r " % fp
+print("something new")
+print "Reading files %r " % fp
 print fp.read()
 fp.close()
