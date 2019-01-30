@@ -1,3 +1,3 @@
 # Bizzaro John hates this file
-
-#  add more crap 
+print("I agree this sucks")
+#  add more crap
