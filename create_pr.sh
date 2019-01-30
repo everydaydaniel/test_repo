@@ -7,7 +7,7 @@ echo "Hello Im a new change"
 touch yadda-$random_string.out
 echo "yadda" >> yadda-$random_string.out
 git add yadda-$random_string.out
-git commit -m "random string for commit message $random_string"
+git commit -m "random string for commit messages $random_string"
 git push origin branch-$random_string
 git checkout master
 
