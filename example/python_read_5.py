@@ -4,6 +4,7 @@ from sys import argv
 # test 5 - test PR title
 script, filename = argv
 fp = open(filename)
-print "Reading files %r " % fp
+print "Reading files accross multiple filess %r " % fp
 print fp.read()
+print("finished")
 fp.close()
