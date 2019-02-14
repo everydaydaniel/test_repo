@@ -5,6 +5,6 @@ from sys import argv
 script, filename = argv
 fp = open(filename)
 print "Reading file names %r " % fp
-print "Reading file names %r " % fp
+print "Reading file names again %r " % fp
 print fp.read()
 fp.close()
