@@ -6,5 +6,5 @@ script, filename = argv
 fp = open(filename)
 print "Reading files accross multiple files %r " % fp
 print fp.read()
-print("finished")
+print("finished more changes")
 fp.close()
