@@ -5,6 +5,12 @@ from sys import argv
 script, filename = argv
 fp = open(filename)
 print "Reading file names %r " % fp
-print "Reading file names again %r " % fp
+print "read some more files %r " % fp
 print fp.read()
 fp.close()
+print("more lines")
+print("actually one more line")
+print("more lines")
+print("actually one more line")
+print("more lines")
+print("actually one more line")
