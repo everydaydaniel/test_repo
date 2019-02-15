@@ -7,5 +7,5 @@ fp = open(filename)
 print "And I moddified this line %r " % fp
 print fp.read()
 print("I added a new line to Johns code")
-print("finished more changes")
+print("finished more changes to this code")
 fp.close()
