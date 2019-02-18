@@ -6,6 +6,6 @@ script, filename = argv
 fp = open(filename)
 print "And I moddified this line %r " % fp
 print fp.read()
-print("I added a new line to Johns code")
+print("I added a new line to Johns codes")
 print("finished more changes to this code")
 fp.close()
