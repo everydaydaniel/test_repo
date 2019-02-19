@@ -10,6 +10,7 @@ git add yadda-$random_string.out
 git commit -m "random string for commit messages $random_string"
 git push origin branch-$random_string
 git checkout master
+git branch
 
 curl -X POST \
   https://api.github.com/repos/jwalczyk/test_repo/pulls \
