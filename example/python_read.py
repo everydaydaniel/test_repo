@@ -1,3 +1,3 @@
 # Bizzaro John hates this file
-print("I agree this sucks")
+print("Pleas efucking go on devops insights")
 #  add more crap
