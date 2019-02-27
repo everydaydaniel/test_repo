@@ -1,5 +1,4 @@
 # from sys module import a member called 'argv'
-# from sys module import a member called 'argv'
 from sys import argv
 #unpack
 # test3
