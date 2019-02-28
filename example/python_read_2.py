@@ -6,7 +6,7 @@ script, filename = argv
 fp = open(filename)
 print "Reading files %r " % fp
 print fp.read()
-fp.close()
+fp.open()
 from sys import argv
 #unpack
 # test3
