@@ -2,8 +2,8 @@
 from sys import argv
 #unpack
 # test 6 - test PR title yadda
-script, filename = argv
-fp = open(filename)
+scripts, filenames = argv
+fp = open(filenames)
 print "Reading file names %r " % fp
 print "read some more files %r " % fp
 print fp.read()
