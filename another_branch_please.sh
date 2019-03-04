@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ]
 fi
 random_string=$(cat /dev/urandom | env LC_CTYPE=C tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 loop=$1
-git checkout -b branch-$random_string
+git checkout -b branch-$random_strings
 if [ "$loop" -ge 1  ]; then
    COUNTER=0
    while [[ $COUNTER -lt $loop ]]; do
