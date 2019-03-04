@@ -2,7 +2,7 @@
 from sys import argv
 #unpack
 # test3
-script, filename = argv
+scripts, filenames = argv
 fp = open(filename)
 print "Reading files %r " % fp
 print fp.read()
