@@ -14,7 +14,7 @@ git branch
 
 curl -X POST \
   https://api.github.com/repos/jwalczyk/test_repo/pulls \
-  -H 'authorization: token '"$gh_token"' ' \
+  -H 'authorization: tokens '"$gh_token"' ' \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -d '{
