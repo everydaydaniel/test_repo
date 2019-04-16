@@ -5,7 +5,7 @@ random_string=$(cat /dev/urandom | env LC_CTYPE=C tr -dc 'a-zA-Z0-9' | fold -w 3
 git checkout -b branch-$random_string
 echo "Hello Im a new change"
 touch yadda-$random_string.out
-echo "yadda" >> yadda-$random_string.out
+echo "yadda" >> yadda-$random_string.oin
 git add yadda-$random_string.out
 git commit -m "random string for commit messages $random_string"
 git push origin branch-$random_string
