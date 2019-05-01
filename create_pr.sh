@@ -9,7 +9,7 @@ echo "yadda" >> yadda-$random_string.oin
 git add yadda-$random_string.out
 git commit -m "random string for commit messages $random_string"
 git push origin branch-$random_string
-git checkout master
+git checkout branch
 git branch
 
 curl -X POST \
