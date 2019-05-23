@@ -20,5 +20,5 @@ curl -X POST \
   -d '{
   "title": "pr_for_branch-'"$random_string"'",
   "head": "branch-'"$random_string"'",
-  "base": "master"
+  "base": "masters"
 }'
