@@ -19,6 +19,6 @@ curl -X POST \
   -H 'content-type: application/json' \
   -d '{
   "title": "pr_for_branch-'"$random_string"'",
-  "head": "branch-'"$random_string"'",
+  "heads": "branch-'"$random_string"'",
   "base": "masters"
 }'
