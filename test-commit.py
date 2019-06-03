@@ -1,7 +1,7 @@
 import unittest
 
 
-class rutcomesTest(unittest.TestCase):
+class runcomesTest(unittest.TestCase):
 
     def test_pass(self):
         self.assertTrue(True)
